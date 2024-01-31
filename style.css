@@ -1,0 +1,303 @@
+body {
+
+    font-family: Arial, sans-serif;
+
+    text-align: center;
+
+    margin: 0;
+
+    padding: 0;
+
+    background-color: #f0f0f0;
+
+  }
+
+  .first-container {
+
+    border: 1px solid #aaa;
+
+    border-radius: 10px;
+
+    padding: 20px;
+
+    margin: 20px auto;
+
+    max-width: 800px;
+
+    background-color: #fff;
+
+  }
+
+  .header {
+
+    font-size: 2em;
+
+    color: #333;
+
+  }
+
+  .intro-text {
+
+    margin: 20px;
+
+  }
+
+ 
+
+  .profile-image {
+
+    width: 150px; /* Définissez une taille fixe pour la largeur */
+
+    height: 150px; /* La hauteur doit être la même que la largeur pour créer un cercle parfait */
+
+    border-radius: 50%; /* Cela rendra l'élément HTML parfaitement rond */
+
+    border: 3px solid #333;
+
+    display: inline-block;
+
+    margin: 20px;
+
+    object-fit: cover; /* Cela s'assurera que l'image couvre la zone de l'élément sans être déformée */
+
+    object-position: center; /* Centre l'image dans l'élément */
+
+  }
+
+ 
+
+ 
+
+  .first-button {
+
+    display: inline-block;
+
+    padding: 10px 20px;
+
+    background-color:#324075;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+
+    margin: 20px;
+
+    transition: 0.2s;
+
+  }
+
+  .first-button :hover {
+
+    background-color: #003d82;
+
+    border:3px red solid;
+
+  }
+
+ 
+
+  /* Continuation de votre fichier CSS existant */
+
+ 
+
+.second-container {
+
+    border: 1px solid #aaa;
+
+    border-radius: 10px;
+
+    padding: 20px;
+
+    margin: 20px auto;
+
+    max-width: 800px;
+
+    background-color: #fff;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  }
+
+ 
+
+  .second-container h2 {
+
+    color: #324075;
+
+    margin-bottom: 10px;
+
+  }
+
+ 
+
+  .second-container p {
+
+    color: #666;
+
+  }
+
+ 
+
+.second-button {
+
+    display: inline-block;
+
+    padding: 10px 20px;
+
+    background-color:#324075;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+
+    margin: 20px;
+
+    transition: 0.2s;
+
+}
+
+ 
+
+/* Ajoutez ou modifiez ce CSS dans votre fichier style.css pour le troisième conteneur */
+
+ 
+
+.third-container {
+
+    border: 1px solid #aaa;
+
+    border-radius: 10px;
+
+    padding: 20px;
+
+    margin: 20px auto;
+
+    max-width: 800px;
+
+    background-color: #fff;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+   
+
+    background-image: url(fighting-arena-with-grid-searchlights-battles-mixed-martial-arts-mma_124507-26748.avif);
+
+  }
+
+ 
+
+  .third-container h2 {
+
+    font-size: 3em;
+
+    color: #ea0707;
+
+    text-align: center;
+
+    margin-bottom: 0.5em;
+
+  }
+
+ 
+
+  .third-container p {
+
+    font-size: 1.5em;
+
+    color: #fcf9f9;
+
+    text-align: center;
+
+    margin-bottom: 1em;
+
+  }
+
+  highlight {
+
+    background-color: #ea0707;
+
+    color: white;
+
+    padding: 0.2em 0.5em;
+
+    border-radius: 5px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+  }
+
+ 
+
+  
+
+  .highlight:hover {
+
+    background-color: #c9302c;
+
+  }
+
+  .social-container {
+
+    border: 1px solid #aaa;
+
+    border-radius: 10px;
+
+    padding: 20px;
+
+    margin: 20px auto;
+
+    max-width: 800px;
+
+    background-color: #fff;
+
+    text-align: center; /* Centre le contenu */
+
+  }
+
+ 
+
+  .social-container h3 {
+
+    font-size: 2em;
+
+    color: #333;
+
+    margin-bottom: 10px; /* Espace entre le titre et les icônes */
+
+  }
+
+ 
+
+  .social-icon {
+
+    display: inline-block;
+
+    margin: 0 10px; /* Espace horizontal entre les icônes */
+
+    border-radius: 50%; /* Pour les logos circulaires */
+
+    overflow: hidden; /* Cache les parties débordantes des images */
+
+  }
+
+ 
+
+  .social-icon img {
+
+    height: 40px; /* Ou la taille que vous souhaitez pour vos logos */
+
+    width: auto; /* Garde les proportions des logos */
+
+  }
+
+ 
+
+  .social-icon:hover img {
+
+    filter: brightness(0.8);
+
+  }
